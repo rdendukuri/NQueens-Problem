@@ -6,6 +6,11 @@
 #include<malloc.h>
 #include<time.h>
 #define MAXSIZE 100
+/*
+This solution to the N-Queens problem is for n=8
+
+
+*/
 void initBoard(int* b,int n);
 void printBoard(int* a,int n);
 int generateRandomNum();
